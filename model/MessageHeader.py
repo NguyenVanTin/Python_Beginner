@@ -14,3 +14,13 @@ class MessageHeader():
             "Authorization": self.authorization
         }
         return data
+    
+    def sendMessageToApple11(self):
+        data = {
+            "Destination-Id": self.destination_id, 
+            "Source-Id": self.source_id, 
+            "Content-Type": "application/json", 
+            "id": self.id, 
+            "Authorization": self.authorization
+        }
+        return data
