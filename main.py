@@ -7,3 +7,5 @@ class main:
     print(tin.getJson())
     nam = Parrot("Nam", 24)
     print("{} is {} years old.".format(nam.name, nam.age))
+    nam = Parrot("Nam", 24)
+    print("{} is {} years old.".format(nam.name, nam.age))
