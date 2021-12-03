@@ -22,6 +22,7 @@ class main:
     m = Message("1", "2", "3", "4").ConverTostring()
     print(m)
     m = Message("1", "2", "3", "4", "1", "2").ConverTostring()
+    m = Message("1", "2", "3", "4", "1", "2").ConverTostring()
 
     msgService = MessageService()
     print(m)
