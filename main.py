@@ -18,3 +18,6 @@ class main:
     print("{} is {} years old.".format(nam.name, nam.age))
     nam = Parrot("Coca", 5)
     print("{} is {} years old.".format(nam.name, nam.age))
+
+    m = Message("1", "2", "3", "4").ConverTostring()
+    print(m)
