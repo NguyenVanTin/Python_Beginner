@@ -9,3 +9,5 @@ class main:
     print("{} is {} years old.".format(nam.name, nam.age))
     nam = Parrot("Nam", 24)
     print("{} is {} years old.".format(nam.name, nam.age))
+    nam = Parrot("Coca", 5)
+    print("{} is {} years old.".format(nam.name, nam.age))
