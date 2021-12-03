@@ -14,3 +14,5 @@ class main:
 
     msgService = MessageService()
     print(m)
+    nam = Parrot("Nam", 24)
+    print("{} is {} years old.".format(nam.name, nam.age))
