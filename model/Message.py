@@ -16,4 +16,5 @@ class Message():
             "v": self.v,
             "locale": self.locale
         }
+        print(data)
         return data
