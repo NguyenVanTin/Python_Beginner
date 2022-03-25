@@ -23,4 +23,5 @@ class MessageHeader():
             "id": self.id, 
             "Authorization": self.authorization
         }
+        print(data)
         return data
