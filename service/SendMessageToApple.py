@@ -9,4 +9,6 @@ class SendMessage():
     header = MessageHeader(authorization, destination_id, id, source_id).sendMessageToApple()
     print(header)
     dataJson = json.dumps(header)
+    # print dataJson
+    # print dataJson
     print(dataJson)
