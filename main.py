@@ -11,6 +11,21 @@ class main:
     print("{} is {} years old.".format(nam.name, nam.age))
 
     m = Message("1", "2", "3", "4", "1", "2").ConverTostring()
+    # MSG
+    msgService = MessageService()
+    print(m)
+    nam = Parrot("Nam", 24)
+    print("{} is {} years old.".format(nam.name, nam.age))
+    nam = Parrot("Coca", 5)
+    print("{} is {} years old.".format(nam.name, nam.age))
+
+    m = Message("1", "2", "3", "4").ConverTostring()
+    print(m)
+    m = Message("1", "2", "3", "4", "1", "2").ConverTostring()
+    m = Message("1", "2", "3", "4", "1", "2").ConverTostring()
+
+    print("Hello Tin")
+    # msgService
 
     msgService = MessageService()
     print(m)
